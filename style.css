@@ -1,0 +1,25 @@
+/* New styles for the navigation links */
+nav {
+    background-color: #333; /* Background color for the navigation bar */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline; /* Display the list items inline */
+    margin-right: 20px; /* Add some space between the list items */
+}
+
+a {
+    text-decoration: none; /* Remove the default underline */
+    color: #fff; /* Text color for the links */
+    font-weight: bold; /* Make the text bold */
+}
+
+a:hover {
+    color: #ffc107; /* Change text color on hover */
+}

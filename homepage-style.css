@@ -1,0 +1,99 @@
+/* Styles for the homepage */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%; /* Set table width to 100% */
+    border-collapse: separate;  
+    border-radius: 12px; /* Rounded corners for the table */
+    margin-top: 150px;
+    margin-left: 190px; 
+    border: 5px solid black;
+    
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 15px; /* Adjusted padding for better spacing */
+    text-align: left;
+}
+
+th {
+    color: white;
+    background-color: black;
+}
+
+#add-btn {
+    padding: 10px;
+    margin-left: 190px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+ td .edit{
+    background-color: #28a745; /* Green color for edit button */
+    color: lightgrey;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+td .delete {
+    background-color: #dc3545; /* Red color for delete button */
+    color: lightgray;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+
+
+button:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+
+}
+
+nav {
+    background-color: #333; /* Background color for the navigation bar */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline; /* Display the list items inline */
+    margin-right: 20px; /* Add some space between the list items */
+}
+
+a {
+    text-decoration: none; /* Remove the default underline */
+    color: #fff; /* Text color for the links */
+    font-weight: bold; /* Make the text bold */
+}
+
+a:hover {
+    color: skyblue; /* Change text color on hover */
+}
